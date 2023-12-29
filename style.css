@@ -1,0 +1,128 @@
+img{
+    height : 70px;
+    border-radius:  8px;
+    margin-bottom: 30px;
+    position: absolute;
+    top : 8%;
+    left : 42%;
+}
+.logo{
+    font-size: 3rem;
+    font-family: 'Open Sans', sans-serif;;
+    font-weight: 200;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    margin-top: 20px;
+}
+.login{
+    background-color: white;
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    border-radius: 20px;
+    padding: 20px;
+    width: 300px;
+    height: 280px;
+    margin-top: 30px;
+    
+    
+}
+.email{
+    border: 2px inset rgb(218, 208, 208);
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 6px;
+}
+p[class = "Password"]{
+    border: 2px inset rgb(218, 208, 208);
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 6px;
+}
+#login{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    margin-left: 200px;
+    width: 20%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding : 6px;
+}
+#forget{
+    text-align: center;
+    margin-left: 150px;
+    color: rgb(129, 122, 122);
+    margin-bottom: 10px;
+}
+
+#create{
+    text-align: center;
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+    padding: 7px;
+    margin-bottom: 30px;
+}
+footer{
+    background-color: white;
+    position: absolute;
+    top: 90%;
+    margin-bottom: 0px;
+    padding: 20px;
+    width: 100%;
+    height: 20px;
+}
+body{
+    background-color: rgb(7, 241, 222);
+}
+
+@media (max-width : 800px) and (min-width : 400px){
+    #logo{
+        width: 50%;
+        display: block;
+    }
+    img{
+        position: absolute;
+        top: 5%;
+        left: 40%;
+        width: 35%;
+        margin-top: 0%;
+        height: 20%;
+    }
+    .logo{
+        font-size: 2rem;
+        position: absolute;
+        top: 20%;
+        left: 30%;
+        margin-bottom: 0%;
+    }
+    .login{
+        height: 40%;
+        width: 50%;;
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        padding-bottom: 20%;
+        padding-right: 10%;
+        font-size: 1rem;
+    }
+    .login > .login{
+        position: absolute;
+        left: 55%;
+
+    }
+    .login>.create{
+        margin-bottom: 10px;
+        font-size: 1.5rem;
+        position: absolute;
+        top: 60%;
+        left: 35%;
+
+    }
+    footer{
+        position: absolute;
+        top: 100%;
+    }
+}
